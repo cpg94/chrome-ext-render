@@ -1,0 +1,26 @@
+{
+  "name": "chrome-ext-render",
+  "version": "1.0.0",
+  "description": "Simple method to render and remove React, (Inferno, Preact) apps. Made for use with Chrome Extensions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cpg94/chrome-ext-render.git"
+  },
+  "keywords": [
+    "chrome",
+    "react",
+    "infeno",
+    "render",
+    "preact"
+  ],
+  "author": "cpg94",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cpg94/chrome-ext-render/issues"
+  },
+  "homepage": "https://github.com/cpg94/chrome-ext-render#readme"
+}
