@@ -1,8 +1,8 @@
 # chrome-ext-render
 
-Had issues using componentWillUnmount with Chrome Extensions which were built on sites using React. `componentWillUnmount` would never trigger so all event listeners would still be active.
+Had issues using `componentWillUnmount` with Chrome Extensions which were built on sites using React. `componentWillUnmount` would never trigger so all event listeners, etc, would still be active.
 
-This makes sure that components in your app will call `componentWillUnmount` and also the rendered element off the page, including the node that it was mounted to if you want.
+This makes sure that components in your app will call `componentWillUnmount` and also remove the app from the DOM, including the node that it was mounted to if you want.
 
 ```
 yarn add chrome-ext-render
@@ -23,7 +23,7 @@ app = createApp(<App />, node, ReactDOM.render);
 app();
 ```
 
-You have to pass through the render method as I wanted to be able to use this extension with other React like libraries such as Inferno and Preact.
+You have to pass through the render method as I wanted to be able to use this method with other React like libraries such as Inferno and Preact.
 
 If anyone finds a way to not need this, please let me know!
 
