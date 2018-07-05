@@ -1,4 +1,4 @@
-# chrome-ext-render
+## Chrome Extension Renderer
 
 Had issues using `componentWillUnmount` with Chrome Extensions which were built on sites using React. `componentWillUnmount` would never trigger so all event listeners, etc, would still be active.
 
