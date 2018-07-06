@@ -1,6 +1,6 @@
 {
   "name": "chrome-ext-render",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple method to render and remove React, (Inferno, Preact) apps. Made for use with Chrome Extensions.",
   "main": "index.js",
   "scripts": {
