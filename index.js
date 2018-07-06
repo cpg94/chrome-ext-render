@@ -10,7 +10,7 @@ const createApp = (app, node, renderMethod, deleteNode = true) => {
     return () => {
         renderMethod(null, node);
         if(deleteNode){
-            node.delete();
+            node.remove();
         }
     }
 }
